@@ -9,12 +9,10 @@
     --font3: Arial, Helvetica, sans-serif;
     --font4: "Unkempt", cursive;
 }
-
 * {
     padding: 0px;
     margin: 0px;
 }
-
 html, body {
     min-height: 100vh;
     background-color: blue;
@@ -26,9 +24,6 @@ header {
     color: white;
     text-align: center;
 }
-
-
-
 header > h1 {
     font-family: var(--font2);
     padding-top: 50px;
@@ -46,10 +41,6 @@ a {
 a:hover {
     text-decoration: underline;
 }
-
-
-
-
 section {
     font-family: var(--font4);
     padding-top: 10vh;
@@ -62,12 +53,6 @@ section {
 section > p {
     font-size: larger;
 }
-
-
-
-
-
-
 section.normal {
     background-color: rgb(255, 255, 255);
 }
@@ -81,14 +66,12 @@ section.imagem > p {
     padding: 20px;
     text-shadow: 1px 1px 3px black;
 }
-
 #v1 {
     background: black url('../imagens/background001.jpg') center center/cover no-repeat fixed;
 }
 #v2 {
     background: black url('../imagens/background002.jpg') center center/cover no-repeat fixed;
 }
-
 footer {
     background-color: black;
     color: white;
